@@ -78,11 +78,11 @@ public class Trade implements Entity<Long> {
     }
 
     public static class Builder {
-        private long id;
+        private final long id;
         private TradeIndicator indicator;
         private BigDecimal tradedPrice;
         private long sharesQuantity;
-        private DateTime timestamp = DateTime.now(DEFAULT_TIME_ZONE);
+        private final DateTime timestamp = DateTime.now(DEFAULT_TIME_ZONE);
 
         public Builder(final long id) {
             this.id = id;

@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class DividendYieldCalculatorFactoryImplTest {
 
     //TODO: Replace with DI
-    private DividendYieldCalculatorFactory dividendYieldCalculatorFactory =
+    private final DividendYieldCalculatorFactory dividendYieldCalculatorFactory =
             new DividendYieldCalculatorFactoryImpl(
                     new DividendYieldCommonCalculatorImpl(),
                     new DividendYieldPreferredCalculatorImpl());

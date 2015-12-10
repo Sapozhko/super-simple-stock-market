@@ -10,7 +10,7 @@ public class PERatioCalculatorImplTest {
 
     private static final double DELTA = 0.001;
 
-    private PERatioCalculatorImpl peRatioCalculator = new PERatioCalculatorImpl();
+    private final PERatioCalculatorImpl peRatioCalculator = new PERatioCalculatorImpl();
 
     @Test
     public void should_return_0_0039_after_calculation() {

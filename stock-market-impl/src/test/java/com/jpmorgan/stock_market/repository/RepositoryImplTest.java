@@ -12,7 +12,7 @@ import static org.mockito.Mockito.mock;
 
 public class RepositoryImplTest {
 
-    private RepositoryImpl<Long, Entity<Long>> tradeRepository = new RepositoryImpl<>();
+    private final RepositoryImpl<Long, Entity<Long>> tradeRepository = new RepositoryImpl<>();
 
     @Before
     public void beforeEachTest() {

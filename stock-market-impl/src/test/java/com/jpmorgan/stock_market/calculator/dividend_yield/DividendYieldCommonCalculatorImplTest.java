@@ -14,7 +14,7 @@ public class DividendYieldCommonCalculatorImplTest {
 
     private static final double DELTA = 0.001;
 
-    private DividendYieldCommonCalculatorImpl dividendYieldCommonCalculator = new DividendYieldCommonCalculatorImpl();
+    private final DividendYieldCommonCalculatorImpl dividendYieldCommonCalculator = new DividendYieldCommonCalculatorImpl();
 
     @Test
     public void should_return_common_stock_type() {

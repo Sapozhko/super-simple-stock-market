@@ -14,7 +14,7 @@ public class DividendYieldPreferredCalculatorImplTest {
 
     private static final double DELTA = 0.001;
 
-    private DividendYieldPreferredCalculatorImpl dividendYieldPreferredCalculator = new DividendYieldPreferredCalculatorImpl();
+    private final DividendYieldPreferredCalculatorImpl dividendYieldPreferredCalculator = new DividendYieldPreferredCalculatorImpl();
 
     @Test
     public void should_return_preferred_stock_type() {

@@ -16,7 +16,7 @@ public class VolumeWeightedStockPriceCalculatorImplTest {
 
     private static final double DELTA = 0.001;
 
-    private VolumeWeightedStockPriceCalculatorImpl volumeWeightedStockPriceCalculator = new VolumeWeightedStockPriceCalculatorImpl();
+    private final VolumeWeightedStockPriceCalculatorImpl volumeWeightedStockPriceCalculator = new VolumeWeightedStockPriceCalculatorImpl();
 
     @Test
     public void should_return_0_if_list_is_empty() {

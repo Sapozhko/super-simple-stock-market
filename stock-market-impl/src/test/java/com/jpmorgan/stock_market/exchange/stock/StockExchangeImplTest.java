@@ -8,7 +8,7 @@ import static org.junit.Assert.assertNull;
 
 public class StockExchangeImplTest {
 
-    private StockExchangeImpl stockExchange = new StockExchangeImpl();
+    private final StockExchangeImpl stockExchange = new StockExchangeImpl();
 
     @Test
     public void should_return_stock_by_stock_symbol() {

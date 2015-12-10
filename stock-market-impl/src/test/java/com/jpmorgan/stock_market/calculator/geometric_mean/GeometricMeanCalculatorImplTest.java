@@ -16,7 +16,7 @@ public class GeometricMeanCalculatorImplTest {
 
     private static final double DELTA = 0.001;
 
-    private GeometricMeanCalculatorImpl geometricMeanCalculator = new GeometricMeanCalculatorImpl();
+    private final GeometricMeanCalculatorImpl geometricMeanCalculator = new GeometricMeanCalculatorImpl();
 
     @Test
     public void should_return_0_if_list_is_empty() {

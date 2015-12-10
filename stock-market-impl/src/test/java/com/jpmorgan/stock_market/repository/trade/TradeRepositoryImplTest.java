@@ -15,7 +15,7 @@ import static org.mockito.Mockito.mock;
 
 public class TradeRepositoryImplTest {
 
-    private TradeRepositoryImpl tradeRepository = new TradeRepositoryImpl();
+    private final TradeRepositoryImpl tradeRepository = new TradeRepositoryImpl();
 
     @Before
     public void beforeEachTest() {
